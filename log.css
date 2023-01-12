@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form1{
+    display: flex;
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    margin-top:25px;
+    font-weight:400;
+    color: white;
+    background-color: rgb(188, 173, 225);
+    word-spacing: 12px;
+    letter-spacing: 3px;
+}
+.box{
+    align-items: center;
+    border: 3px solid rgba(7, 21, 50, 0.386) ;
+    width: 28%;
+    margin-left: 34%;
+    margin-top: 5%;
+    padding: 30px 15px;
+    border-radius: 7px;
+    box-shadow: rgba(9, 25, 81, 0.352);
+}
+#login-font{
+    text-align: center;
+    background-color: rgba(127, 239, 15, 0.74);
+    color: white;
+    font-size: 25px;
+    width:50%;
+    margin-left: 33%;
+    border-radius: 4px;
+}
+#mail{
+    text-align: center;
+    font-size: 18px;
+}
+.email{
+    margin-left: 37%;
+    width: 33%;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    border-color: rgba(203, 239, 135, 0.548);
+}
+.email:hover{
+    background-color: rgba(188, 230, 177, 0.489);  
+    border-color: rgba(122, 184, 143, 0.587);
+}
+#pass{
+    text-align: center;
+    font-size: 18px;
+}
+.password{
+    margin-left: 37%;
+    width: 33%;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 3px 5px;
+    border-color: rgba(202, 239, 135, 0.404);
+}
+.password:hover{
+    background-color: rgba(188, 230, 177, 0.489);  
+    border-color: rgba(122, 184, 143, 0.587);
+}
+.btns{
+    display: flex;
+    
+    
+}
+.sign{
+    text-align: center;
+    margin-left: 42%;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(10, 245, 147, 0.934);
+    padding: 5px 5px ;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sign:hover{
+    background-color:  rgba(10, 245, 45, 0.982);
+    font-size:16.3px;
+    cursor: pointer;
+}
+#forget .forget-anchor{
+    text-decoration: none;
+    color:  rgb(247, 158, 26);
+    font-size: 17px;
+}
+
+#forget .forget-anchor:hover{
+    color: rgb(10, 194, 250);
+    font-size: 17.3px;
+}
+#register .register-anchor{
+    text-decoration: none;
+    color: rgb(247, 158, 26);
+    font-size: 18px;
+}
+#register{
+    margin-left: 45%;
+    font-size: 17px;
+}
+#register .register-anchor:hover{
+    text-decoration: none;
+    color: rgb(13, 154, 241);
+    font-size: 18.3px;
+}
